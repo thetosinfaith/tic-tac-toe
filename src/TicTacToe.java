@@ -11,7 +11,7 @@ public class TicTacToe {
     }
 
 
-    public boolean gameBoard() {
+    public boolean empty() {
         return true;
     }
 
@@ -23,5 +23,8 @@ public class TicTacToe {
     public String secondPlayerName(String userName) {
         secondPlayerName = userName;
         return secondPlayerName;
+    }
+
+    public void playerCanPlayInAnyDirection() {
     }
 }
