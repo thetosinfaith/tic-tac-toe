@@ -18,12 +18,20 @@ class TicTacToeTest {
         assertNotEquals(userName2, userName1);
     }
     @Test
-    void testPlayerCanPlayInAnyDirection(){
+    void testPlayerCanPlayInAnyDirection() {
         TicTacToe ticTacToe = new TicTacToe();
         ticTacToe.playerCanPlayInAnyDirection();
 
         Position userChoose = Position.X;
-        Direction moveUp = Direction.NORTH;
+
+        if (Direction : testPlayerCanPlayInAnyDirection(); {
+
+        })
+
+        if (Direction Direction moveUp;
+        moveUp = Direction.NORTH);
+
+        moveUp = Direction.NORTH;
         Direction moveDown = Direction.WEST;
         Direction turnRight = Direction.SOUTH;
         Direction turnLeft = Direction.EAST;
@@ -32,13 +40,11 @@ class TicTacToeTest {
         assertTrue(userChoose);
 
 
-
-
         assertTrue();
 
-        switch(userChoose){
+        switch (userChoose) {
 
-            case EMPTY :
+            case EMPTY:
                 Direction userChoose1 = Direction.NORTH;
                 Direction u
                 break;
@@ -48,16 +54,12 @@ class TicTacToeTest {
         }
 
 
+        Position position (ticTacToe);
 
-        Position position(ticTacToe);
-
-        switch (ticTacToe){
+        switch (ticTacToe) {
 
         }
         ticTacToe.FirstPlayerPla
-        
-
-
 
 
 //    void testAllowTwoHumanPlayers() {
@@ -71,6 +73,10 @@ class TicTacToeTest {
 //        assertEquals("Charles", ticTacToe.getSecond  PlayerName())
 
     }
+
+    private void assertTrue(Position userChoose) {
+    }
+
     void testThatFirstPlayerCanMakeXMove() {
 
 
