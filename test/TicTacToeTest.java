@@ -21,12 +21,14 @@ class TicTacToeTest {
     void testPlayerCanPlayInAnyDirection(){
         TicTacToe ticTacToe = new TicTacToe();
         ticTacToe.playerCanPlayInAnyDirection();
+
         Position userChoose = Position.X;
-        if (d )
         Direction moveUp = Direction.NORTH;
         Direction moveDown = Direction.WEST;
         Direction turnRight = Direction.SOUTH;
         Direction turnLeft = Direction.EAST;
+
+
         assertTrue(userChoose);
 
 
