@@ -1,12 +1,5 @@
 public class TicTacToe {
-    public static void main(String[] args) {
+    public void TwoHumanPlayers(String firstPlayerName, String secondPlayerName) {
 
-        private Position position [ for (Position position1 : position) {
-
-        }
-        ] [position]
-
-
-        System.out.println("Hello world!");
     }
 }
