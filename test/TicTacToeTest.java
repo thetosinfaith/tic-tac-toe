@@ -1,26 +1,35 @@
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
+import static org.junit.jupiter.api.Assertions.assertEquals;
 class TicTacToeTest {
 
     @Test
+    void testAllowTwoHumanPlayers() {
+        TicTacToe ticTacToe = new TicTacToe();
 
-    void testAllowTwoHumanPlayers(){
-        TicTacToe ticTacToe = new TicTacToe("C", );
 
 
-        game.TwoHumanPlayers("");
 
-        assertTrue()
+
+
+
+
+
+
+
+
+
+        ticTacToe.hasTwoHumanPlayers("Paul", "Daniel");
+        assertTrue(ticTacToe.hasTwoHumanPlayers("Paul", "Daniel"));
+        System.out.println("Game have two human players");
+
+        assertEquals("Samuel", ticTacToe.getFirstPlayerName("Samuel"), "First player name should be Samuel");
+        assertEquals("Charles", ticTacToe.getSecond  PlayerName())
+
     }
+    void testThatFirstPlayerCanMakeXMove() {
+
 
     }
-
-    @Test
-
-    void testThatFirstPlayerCanMakeXMove(){
-
 
 }
 
