@@ -8,7 +8,20 @@ public class TicTacToe {
 
     public String getFirstPlayerName() {
         return this.firstPlayerName;
-
     }
 
+
+    public boolean gameBoard() {
+        return true;
+    }
+
+    public String firstPlayerName(String userName) {
+        firstPlayerName = userName;
+        return firstPlayerName;
+    }
+
+    public String secondPlayerName(String userName) {
+        secondPlayerName = userName;
+        return secondPlayerName;
+    }
 }
